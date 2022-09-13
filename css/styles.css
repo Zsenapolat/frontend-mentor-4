@@ -1,0 +1,88 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../images/bg-desktop.svg");
+}
+/* ICON */
+
+.logo {
+  width: 15%;
+  margin: 2rem auto 4rem 3rem;
+}
+
+/* IMAGE */
+.image {
+  margin-left: 3rem;
+}
+/* REGISTER */
+
+.register {
+  position: absolute;
+  right: 8rem;
+  top: 8rem;
+}
+.h1-register {
+  color: white;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 50px;
+}
+.p-register {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  margin-top: 1rem;
+ background-color: #fff;
+ border: none;
+ padding: 1rem;
+ font-size: 1rem;
+ width: 10em;
+ border-radius: 2rem;
+ color: hsl(257, 40%, 49%);
+ box-shadow: 0 0 0.3rem grey;
+ cursor: pointer;
+}
+
+button:hover {
+ background: hsl(300, 69%, 71%);
+ color: white;
+}
+
+/* LINKS */
+
+.links {
+  position: absolute;
+  right: 3rem;
+}
+
+.fa-brands {
+  color: white;
+  padding: 11px;
+  border: solid 1px;
+  border-color: white;
+  border-radius: 50px;
+  align-items: flex-end;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+.fa-facebook-f {
+  padding: 11px 13px;
+}
+
+i:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+
+/* ATTRIBUTION */
+
+.attribution {
+  margin-top: 3rem;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+  }
